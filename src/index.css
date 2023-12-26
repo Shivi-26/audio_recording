@@ -1,0 +1,45 @@
+/* Add your component-specific styles here */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./images/chatgif.gif'); /* Replace with the actual image path */
+}
+
+.chat-container {
+  border-radius: 8px;
+  box-shadow: 10 20 20px rgba(19, 18, 18, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff; /* Text color on dark background */
+  width: 70%; /* Adjust the width as needed */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.audio-controls {
+  margin-bottom: 20px;
+}
+
+/* Additional styles for a visually appealing chat container */
+.chat-container {
+  max-width: 800px; /* Increase the max-width */
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the audio controls buttons */
+.audio-controls button {
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff; /* Blue color for the button */
+  border: 1px solid #007bff;
+}
+
+/* Red color for the button when recording */
+.audio-controls button.recording {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+}
